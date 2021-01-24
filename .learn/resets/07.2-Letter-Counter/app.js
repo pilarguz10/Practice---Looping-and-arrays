@@ -3,17 +3,4 @@ let counts = {};
 
 // your code here
 
-let procesado  = par.replace(/\s+/g, '').toLowerCase();
-
-
-for (char of procesado) 
-{
-  if (!counts[char]) {
-    counts[char]=1;
-    }
-    else {
-     counts[char]++
-   }
- }
-
 console.log(counts);
